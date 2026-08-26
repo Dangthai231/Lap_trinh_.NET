@@ -4,6 +4,5 @@
 Dưới đây là danh sách các thành viên tham gia thực hiện dự án:
 | Vai Trò | Họ và Tên |
 | :--- | :--- |
-| 👑 **Nhóm Trưởng** | Trần Ngọc Anh |
 | 👤 **Thành Viên** | Đặng Hồng Thái |
-| 👤 **Thành Viên** | Vương Thanh Thúy |
+
