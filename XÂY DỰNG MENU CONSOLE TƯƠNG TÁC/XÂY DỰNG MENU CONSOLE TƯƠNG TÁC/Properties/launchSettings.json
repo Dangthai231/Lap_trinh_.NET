@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "XÂY DỰNG MENU CONSOLE TƯƠNG TÁC": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
