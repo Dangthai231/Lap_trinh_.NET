@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "KIỂM TRA SỐ NGUYÊN TỐ, SỐ HOÀN HẢO VÀ DÃY FIBONACCI": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
