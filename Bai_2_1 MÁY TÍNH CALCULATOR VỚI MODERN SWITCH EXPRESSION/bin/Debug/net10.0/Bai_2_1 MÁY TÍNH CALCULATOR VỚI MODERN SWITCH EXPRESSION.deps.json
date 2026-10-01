@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Bai_2_1 MÁY TÍNH CALCULATOR VỚI MODERN SWITCH EXPRESSION/1.0.0": {
+        "runtime": {
+          "Bai_2_1 MÁY TÍNH CALCULATOR VỚI MODERN SWITCH EXPRESSION.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Bai_2_1 MÁY TÍNH CALCULATOR VỚI MODERN SWITCH EXPRESSION/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

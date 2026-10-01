@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Bai_2_1 MÁY TÍNH CALCULATOR VỚI MODERN SWITCH EXPRESSION": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
