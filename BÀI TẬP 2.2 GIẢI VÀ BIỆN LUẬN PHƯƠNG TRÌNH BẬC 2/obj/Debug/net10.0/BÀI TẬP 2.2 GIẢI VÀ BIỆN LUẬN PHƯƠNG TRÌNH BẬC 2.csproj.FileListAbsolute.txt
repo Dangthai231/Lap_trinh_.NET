@@ -1,0 +1,15 @@
+D:\Project\C#\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\bin\Debug\net10.0\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2.exe
+D:\Project\C#\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\bin\Debug\net10.0\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2.deps.json
+D:\Project\C#\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\bin\Debug\net10.0\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2.runtimeconfig.json
+D:\Project\C#\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\bin\Debug\net10.0\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2.dll
+D:\Project\C#\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\bin\Debug\net10.0\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2.pdb
+D:\Project\C#\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\obj\Debug\net10.0\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project\C#\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\obj\Debug\net10.0\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2.AssemblyInfoInputs.cache
+D:\Project\C#\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\obj\Debug\net10.0\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2.AssemblyInfo.cs
+D:\Project\C#\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\obj\Debug\net10.0\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2.csproj.CoreCompileInputs.cache
+D:\Project\C#\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\obj\Debug\net10.0\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2.dll
+D:\Project\C#\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\obj\Debug\net10.0\refint\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2.dll
+D:\Project\C#\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\obj\Debug\net10.0\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2.pdb
+D:\Project\C#\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\obj\Debug\net10.0\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2.genruntimeconfig.cache
+D:\Project\C#\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\obj\Debug\net10.0\ref\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2.dll
+D:\Project\C#\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\obj\Debug\net10.0\B_I T_P .0DC51A8D.Up2Date

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9Y3Zmklx36E=",
+  "success": true,
+  "projectFilePath": "D:\\Project\\C#\\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2\\BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.24.2-preview.1\\microsoft.visualstudio.azure.containers.tools.targets.1.24.2-preview.1.nupkg.sha512"
+  ],
+  "logs": []
+}

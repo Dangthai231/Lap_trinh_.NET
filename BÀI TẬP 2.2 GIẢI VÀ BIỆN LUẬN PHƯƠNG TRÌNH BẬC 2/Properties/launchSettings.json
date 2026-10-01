@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "BÀI TẬP 2.2 GIẢI VÀ BIỆN LUẬN PHƯƠNG TRÌNH BẬC 2": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
