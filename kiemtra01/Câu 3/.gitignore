@@ -1,0 +1,10 @@
+# Visual Studio cache / user settings
+.vs/
+
+# Build results - cả 2 kiểu project (old-style + SDK)
+**/[Bb]in/
+**/[Oo]bj/
+
+# User private files
+*.suo
+*.user

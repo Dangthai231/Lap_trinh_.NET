@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -26,10 +26,24 @@ namespace Ứng_dụng_Quản_lý_Danh_mục_Thiết_bị_Công_nghệ__TechMart
             InitCategoryCombo();
             InitBindingData();
             WireEvents();
+            FixErrorProviderIcons();
             UpdateStatusCount();
         }
 
         #region Khởi tạo
+        private void FixErrorProviderIcons()
+        {
+            errorProvider.SetIconAlignment(txtProductId, ErrorIconAlignment.MiddleLeft);
+            errorProvider.SetIconAlignment(txtProductName, ErrorIconAlignment.MiddleLeft);
+            errorProvider.SetIconAlignment(txtUnitPrice, ErrorIconAlignment.MiddleLeft);
+            errorProvider.SetIconAlignment(txtQuantity, ErrorIconAlignment.MiddleLeft);
+
+            errorProvider.SetIconPadding(txtProductId, 8);
+            errorProvider.SetIconPadding(txtProductName, 8);
+            errorProvider.SetIconPadding(txtUnitPrice, 8);
+            errorProvider.SetIconPadding(txtQuantity, 8);
+        }
+
         private void InitDataGridViewColumns()
         {
             dgvProducts.AutoGenerateColumns = false;
@@ -170,11 +184,17 @@ namespace Ứng_dụng_Quản_lý_Danh_mục_Thiết_bị_Công_nghệ__TechMart
         private bool ValidateAll()
         {
             var ok = true;
+
             if (string.IsNullOrWhiteSpace(txtProductName.Text))
             {
                 errorProvider.SetError(txtProductName, "Tên SP không được để trống");
                 ok = false;
             }
+            else
+            {
+                errorProvider.SetError(txtProductName, string.Empty);
+            }
+
             decimal price;
             if (!decimal.TryParse(txtUnitPrice.Text, NumberStyles.Any, CultureInfo.InvariantCulture, out price)
                 || price <= 0)
@@ -182,6 +202,11 @@ namespace Ứng_dụng_Quản_lý_Danh_mục_Thiết_bị_Công_nghệ__TechMart
                 errorProvider.SetError(txtUnitPrice, "Đơn giá phải là số lớn hơn 0");
                 ok = false;
             }
+            else
+            {
+                errorProvider.SetError(txtUnitPrice, string.Empty);
+            }
+
             int qty;
             if (!int.TryParse(txtQuantity.Text, NumberStyles.Any, CultureInfo.InvariantCulture, out qty)
                 || qty < 0)
@@ -189,6 +214,11 @@ namespace Ứng_dụng_Quản_lý_Danh_mục_Thiết_bị_Công_nghệ__TechMart
                 errorProvider.SetError(txtQuantity, "Số lượng phải là số nguyên >= 0");
                 ok = false;
             }
+            else
+            {
+                errorProvider.SetError(txtQuantity, string.Empty);
+            }
+
             return ok;
         }
         #endregion
