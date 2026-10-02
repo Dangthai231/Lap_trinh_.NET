@@ -1,0 +1,9 @@
+D:\kiemtra01\Câu 3\Ứng dụng Quản lý Danh mục Thiết bị Công nghệ (TechMart)\Ứng dụng Quản lý Danh mục Thiết bị Công nghệ (TechMart)\obj\Debug\Ứng dụng Quản lý Danh mục Thiết bị Công nghệ (TechMart).csproj.AssemblyReference.cache
+D:\kiemtra01\Câu 3\Ứng dụng Quản lý Danh mục Thiết bị Công nghệ (TechMart)\Ứng dụng Quản lý Danh mục Thiết bị Công nghệ (TechMart)\obj\Debug\Ứng_dụng_Quản_lý_Danh_mục_Thiết_bị_Công_nghệ__TechMart_.Properties.Resources.resources
+D:\kiemtra01\Câu 3\Ứng dụng Quản lý Danh mục Thiết bị Công nghệ (TechMart)\Ứng dụng Quản lý Danh mục Thiết bị Công nghệ (TechMart)\obj\Debug\Ứng dụng Quản lý Danh mục Thiết bị Công nghệ (TechMart).csproj.GenerateResource.cache
+D:\kiemtra01\Câu 3\Ứng dụng Quản lý Danh mục Thiết bị Công nghệ (TechMart)\Ứng dụng Quản lý Danh mục Thiết bị Công nghệ (TechMart)\obj\Debug\Ứng dụng Quản lý Danh mục Thiết bị Công nghệ (TechMart).csproj.CoreCompileInputs.cache
+D:\kiemtra01\Câu 3\Ứng dụng Quản lý Danh mục Thiết bị Công nghệ (TechMart)\Ứng dụng Quản lý Danh mục Thiết bị Công nghệ (TechMart)\bin\Debug\Ứng dụng Quản lý Danh mục Thiết bị Công nghệ (TechMart).exe.config
+D:\kiemtra01\Câu 3\Ứng dụng Quản lý Danh mục Thiết bị Công nghệ (TechMart)\Ứng dụng Quản lý Danh mục Thiết bị Công nghệ (TechMart)\bin\Debug\Ứng dụng Quản lý Danh mục Thiết bị Công nghệ (TechMart).exe
+D:\kiemtra01\Câu 3\Ứng dụng Quản lý Danh mục Thiết bị Công nghệ (TechMart)\Ứng dụng Quản lý Danh mục Thiết bị Công nghệ (TechMart)\bin\Debug\Ứng dụng Quản lý Danh mục Thiết bị Công nghệ (TechMart).pdb
+D:\kiemtra01\Câu 3\Ứng dụng Quản lý Danh mục Thiết bị Công nghệ (TechMart)\Ứng dụng Quản lý Danh mục Thiết bị Công nghệ (TechMart)\obj\Debug\Ứng dụng Quản lý Danh mục Thiết bị Công nghệ (TechMart).exe
+D:\kiemtra01\Câu 3\Ứng dụng Quản lý Danh mục Thiết bị Công nghệ (TechMart)\Ứng dụng Quản lý Danh mục Thiết bị Công nghệ (TechMart)\obj\Debug\Ứng dụng Quản lý Danh mục Thiết bị Công nghệ (TechMart).pdb

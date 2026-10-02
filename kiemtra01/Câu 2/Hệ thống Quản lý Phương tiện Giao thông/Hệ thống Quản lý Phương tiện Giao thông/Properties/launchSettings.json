@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Hệ thống Quản lý Phương tiện Giao thông": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
