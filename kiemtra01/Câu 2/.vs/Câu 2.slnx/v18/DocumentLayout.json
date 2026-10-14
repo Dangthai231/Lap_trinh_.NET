@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\kiemtra01\\C\u00E2u 2\\",
+  "WorkspaceRootPath": "D:\\Lap_trinh_.NET\\kiemtra01\\C\u00E2u 2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\kiemtra01\\C\u00E2u 2\\H\u1EC7 th\u1ED1ng Qu\u1EA3n l\u00FD Ph\u01B0\u01A1ng ti\u1EC7n Giao th\u00F4ng\\H\u1EC7 th\u1ED1ng Qu\u1EA3n l\u00FD Ph\u01B0\u01A1ng ti\u1EC7n Giao th\u00F4ng\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Lap_trinh_.NET\\kiemtra01\\C\u00E2u 2\\H\u1EC7 th\u1ED1ng Qu\u1EA3n l\u00FD Ph\u01B0\u01A1ng ti\u1EC7n Giao th\u00F4ng\\H\u1EC7 th\u1ED1ng Qu\u1EA3n l\u00FD Ph\u01B0\u01A1ng ti\u1EC7n Giao th\u00F4ng\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:H\u1EC7 th\u1ED1ng Qu\u1EA3n l\u00FD Ph\u01B0\u01A1ng ti\u1EC7n Giao th\u00F4ng\\H\u1EC7 th\u1ED1ng Qu\u1EA3n l\u00FD Ph\u01B0\u01A1ng ti\u1EC7n Giao th\u00F4ng\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -24,11 +24,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\kiemtra01\\C\u00E2u 2\\H\u1EC7 th\u1ED1ng Qu\u1EA3n l\u00FD Ph\u01B0\u01A1ng ti\u1EC7n Giao th\u00F4ng\\H\u1EC7 th\u1ED1ng Qu\u1EA3n l\u00FD Ph\u01B0\u01A1ng ti\u1EC7n Giao th\u00F4ng\\Program.cs",
+              "DocumentMoniker": "D:\\Lap_trinh_.NET\\kiemtra01\\C\u00E2u 2\\H\u1EC7 th\u1ED1ng Qu\u1EA3n l\u00FD Ph\u01B0\u01A1ng ti\u1EC7n Giao th\u00F4ng\\H\u1EC7 th\u1ED1ng Qu\u1EA3n l\u00FD Ph\u01B0\u01A1ng ti\u1EC7n Giao th\u00F4ng\\Program.cs",
               "RelativeDocumentMoniker": "H\u1EC7 th\u1ED1ng Qu\u1EA3n l\u00FD Ph\u01B0\u01A1ng ti\u1EC7n Giao th\u00F4ng\\H\u1EC7 th\u1ED1ng Qu\u1EA3n l\u00FD Ph\u01B0\u01A1ng ti\u1EC7n Giao th\u00F4ng\\Program.cs",
-              "ToolTip": "D:\\kiemtra01\\C\u00E2u 2\\H\u1EC7 th\u1ED1ng Qu\u1EA3n l\u00FD Ph\u01B0\u01A1ng ti\u1EC7n Giao th\u00F4ng\\H\u1EC7 th\u1ED1ng Qu\u1EA3n l\u00FD Ph\u01B0\u01A1ng ti\u1EC7n Giao th\u00F4ng\\Program.cs",
+              "ToolTip": "D:\\Lap_trinh_.NET\\kiemtra01\\C\u00E2u 2\\H\u1EC7 th\u1ED1ng Qu\u1EA3n l\u00FD Ph\u01B0\u01A1ng ti\u1EC7n Giao th\u00F4ng\\H\u1EC7 th\u1ED1ng Qu\u1EA3n l\u00FD Ph\u01B0\u01A1ng ti\u1EC7n Giao th\u00F4ng\\Program.cs",
               "RelativeToolTip": "H\u1EC7 th\u1ED1ng Qu\u1EA3n l\u00FD Ph\u01B0\u01A1ng ti\u1EC7n Giao th\u00F4ng\\H\u1EC7 th\u1ED1ng Qu\u1EA3n l\u00FD Ph\u01B0\u01A1ng ti\u1EC7n Giao th\u00F4ng\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-02T03:17:23.464Z",
               "EditorCaption": ""

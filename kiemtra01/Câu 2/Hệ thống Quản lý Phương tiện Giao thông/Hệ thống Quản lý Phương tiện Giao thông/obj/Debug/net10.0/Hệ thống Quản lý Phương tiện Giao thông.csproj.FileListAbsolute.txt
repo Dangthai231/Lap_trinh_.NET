@@ -13,3 +13,18 @@ D:\Project\C#\Hệ thống Quản lý Phương tiện Giao thông\Hệ thống Q
 D:\Project\C#\Hệ thống Quản lý Phương tiện Giao thông\Hệ thống Quản lý Phương tiện Giao thông\obj\Debug\net10.0\Hệ thống Quản lý Phương tiện Giao thông.genruntimeconfig.cache
 D:\Project\C#\Hệ thống Quản lý Phương tiện Giao thông\Hệ thống Quản lý Phương tiện Giao thông\obj\Debug\net10.0\ref\Hệ thống Quản lý Phương tiện Giao thông.dll
 D:\Project\C#\Hệ thống Quản lý Phương tiện Giao thông\Hệ thống Quản lý Phương tiện Giao thông\obj\Debug\net10.0\H_ th_ng.876D7C19.Up2Date
+d:\Lap_trinh_.NET\kiemtra01\Câu 2\Hệ thống Quản lý Phương tiện Giao thông\Hệ thống Quản lý Phương tiện Giao thông\obj\Debug\net10.0\Hệ thống Quản lý Phương tiện Giao thông.GeneratedMSBuildEditorConfig.editorconfig
+d:\Lap_trinh_.NET\kiemtra01\Câu 2\Hệ thống Quản lý Phương tiện Giao thông\Hệ thống Quản lý Phương tiện Giao thông\obj\Debug\net10.0\Hệ thống Quản lý Phương tiện Giao thông.AssemblyInfoInputs.cache
+d:\Lap_trinh_.NET\kiemtra01\Câu 2\Hệ thống Quản lý Phương tiện Giao thông\Hệ thống Quản lý Phương tiện Giao thông\obj\Debug\net10.0\Hệ thống Quản lý Phương tiện Giao thông.AssemblyInfo.cs
+d:\Lap_trinh_.NET\kiemtra01\Câu 2\Hệ thống Quản lý Phương tiện Giao thông\Hệ thống Quản lý Phương tiện Giao thông\obj\Debug\net10.0\Hệ thống Quản lý Phương tiện Giao thông.csproj.CoreCompileInputs.cache
+d:\Lap_trinh_.NET\kiemtra01\Câu 2\Hệ thống Quản lý Phương tiện Giao thông\Hệ thống Quản lý Phương tiện Giao thông\obj\Debug\net10.0\Hệ thống Quản lý Phương tiện Giao thông.sourcelink.json
+d:\Lap_trinh_.NET\kiemtra01\Câu 2\Hệ thống Quản lý Phương tiện Giao thông\Hệ thống Quản lý Phương tiện Giao thông\obj\Debug\net10.0\Hệ thống Quản lý Phương tiện Giao thông.dll
+d:\Lap_trinh_.NET\kiemtra01\Câu 2\Hệ thống Quản lý Phương tiện Giao thông\Hệ thống Quản lý Phương tiện Giao thông\obj\Debug\net10.0\refint\Hệ thống Quản lý Phương tiện Giao thông.dll
+d:\Lap_trinh_.NET\kiemtra01\Câu 2\Hệ thống Quản lý Phương tiện Giao thông\Hệ thống Quản lý Phương tiện Giao thông\obj\Debug\net10.0\Hệ thống Quản lý Phương tiện Giao thông.pdb
+d:\Lap_trinh_.NET\kiemtra01\Câu 2\Hệ thống Quản lý Phương tiện Giao thông\Hệ thống Quản lý Phương tiện Giao thông\bin\Debug\net10.0\Hệ thống Quản lý Phương tiện Giao thông.exe
+d:\Lap_trinh_.NET\kiemtra01\Câu 2\Hệ thống Quản lý Phương tiện Giao thông\Hệ thống Quản lý Phương tiện Giao thông\bin\Debug\net10.0\Hệ thống Quản lý Phương tiện Giao thông.deps.json
+d:\Lap_trinh_.NET\kiemtra01\Câu 2\Hệ thống Quản lý Phương tiện Giao thông\Hệ thống Quản lý Phương tiện Giao thông\bin\Debug\net10.0\Hệ thống Quản lý Phương tiện Giao thông.runtimeconfig.json
+d:\Lap_trinh_.NET\kiemtra01\Câu 2\Hệ thống Quản lý Phương tiện Giao thông\Hệ thống Quản lý Phương tiện Giao thông\bin\Debug\net10.0\Hệ thống Quản lý Phương tiện Giao thông.dll
+d:\Lap_trinh_.NET\kiemtra01\Câu 2\Hệ thống Quản lý Phương tiện Giao thông\Hệ thống Quản lý Phương tiện Giao thông\bin\Debug\net10.0\Hệ thống Quản lý Phương tiện Giao thông.pdb
+d:\Lap_trinh_.NET\kiemtra01\Câu 2\Hệ thống Quản lý Phương tiện Giao thông\Hệ thống Quản lý Phương tiện Giao thông\obj\Debug\net10.0\Hệ thống Quản lý Phương tiện Giao thông.genruntimeconfig.cache
+d:\Lap_trinh_.NET\kiemtra01\Câu 2\Hệ thống Quản lý Phương tiện Giao thông\Hệ thống Quản lý Phương tiện Giao thông\obj\Debug\net10.0\ref\Hệ thống Quản lý Phương tiện Giao thông.dll

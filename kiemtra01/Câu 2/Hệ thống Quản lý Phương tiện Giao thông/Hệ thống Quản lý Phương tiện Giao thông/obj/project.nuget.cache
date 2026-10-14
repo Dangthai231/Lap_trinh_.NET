@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E/tOzE9cj9w=",
+  "dgSpecHash": "uxpm7VauvA0=",
   "success": true,
-  "projectFilePath": "D:\\Project\\C#\\Hệ thống Quản lý Phương tiện Giao thông\\Hệ thống Quản lý Phương tiện Giao thông\\Hệ thống Quản lý Phương tiện Giao thông.csproj",
+  "projectFilePath": "d:\\Lap_trinh_.NET\\kiemtra01\\Câu 2\\Hệ thống Quản lý Phương tiện Giao thông\\Hệ thống Quản lý Phương tiện Giao thông\\Hệ thống Quản lý Phương tiện Giao thông.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.24.2-preview.1\\microsoft.visualstudio.azure.containers.tools.targets.1.24.2-preview.1.nupkg.sha512"
   ],
