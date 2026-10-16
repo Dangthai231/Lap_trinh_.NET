@@ -83,7 +83,8 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { openFileToolStripMenuItem, toolsToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(1748, 28);
+            menuStrip1.Padding = new Padding(5, 2, 0, 2);
+            menuStrip1.Size = new Size(1530, 24);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -91,28 +92,28 @@
             // 
             openFileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { openFileToolStripMenuItem1, saveReportToolStripMenuItem, exitToolStripMenuItem });
             openFileToolStripMenuItem.Name = "openFileToolStripMenuItem";
-            openFileToolStripMenuItem.Size = new Size(70, 24);
+            openFileToolStripMenuItem.Size = new Size(57, 20);
             openFileToolStripMenuItem.Text = "System";
             openFileToolStripMenuItem.Click += openFileToolStripMenuItem_Click;
             // 
             // openFileToolStripMenuItem1
             // 
             openFileToolStripMenuItem1.Name = "openFileToolStripMenuItem1";
-            openFileToolStripMenuItem1.Size = new Size(172, 26);
+            openFileToolStripMenuItem1.Size = new Size(136, 22);
             openFileToolStripMenuItem1.Text = "Open File";
             openFileToolStripMenuItem1.Click += ImportCSV_Click;
             // 
             // saveReportToolStripMenuItem
             // 
             saveReportToolStripMenuItem.Name = "saveReportToolStripMenuItem";
-            saveReportToolStripMenuItem.Size = new Size(172, 26);
+            saveReportToolStripMenuItem.Size = new Size(136, 22);
             saveReportToolStripMenuItem.Text = "Save Report";
             saveReportToolStripMenuItem.Click += ExportCSV_Click;
             // 
             // exitToolStripMenuItem
             // 
             exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            exitToolStripMenuItem.Size = new Size(172, 26);
+            exitToolStripMenuItem.Size = new Size(136, 22);
             exitToolStripMenuItem.Text = "Exit";
             exitToolStripMenuItem.Click += exitToolStripMenuItem_Click;
             // 
@@ -120,20 +121,20 @@
             // 
             toolsToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { importCSVToolStripMenuItem, exportCSVToolStripMenuItem });
             toolsToolStripMenuItem.Name = "toolsToolStripMenuItem";
-            toolsToolStripMenuItem.Size = new Size(58, 24);
+            toolsToolStripMenuItem.Size = new Size(47, 20);
             toolsToolStripMenuItem.Text = "Tools";
             // 
             // importCSVToolStripMenuItem
             // 
             importCSVToolStripMenuItem.Name = "importCSVToolStripMenuItem";
-            importCSVToolStripMenuItem.Size = new Size(224, 26);
+            importCSVToolStripMenuItem.Size = new Size(134, 22);
             importCSVToolStripMenuItem.Text = "Import CSV";
             importCSVToolStripMenuItem.Click += ImportCSV_Click;
             // 
             // exportCSVToolStripMenuItem
             // 
             exportCSVToolStripMenuItem.Name = "exportCSVToolStripMenuItem";
-            exportCSVToolStripMenuItem.Size = new Size(224, 26);
+            exportCSVToolStripMenuItem.Size = new Size(134, 22);
             exportCSVToolStripMenuItem.Text = "Export CSV";
             exportCSVToolStripMenuItem.Click += ExportCSV_Click;
             // 
@@ -141,9 +142,9 @@
             // 
             toolStrip1.ImageScalingSize = new Size(20, 20);
             toolStrip1.Items.AddRange(new ToolStripItem[] { toolStripButton1, toolStripButton2, toolStripButton3, toolStripButton4 });
-            toolStrip1.Location = new Point(0, 28);
+            toolStrip1.Location = new Point(0, 24);
             toolStrip1.Name = "toolStrip1";
-            toolStrip1.Size = new Size(1748, 27);
+            toolStrip1.Size = new Size(1530, 27);
             toolStrip1.TabIndex = 1;
             toolStrip1.Text = "toolStrip1";
             // 
@@ -153,7 +154,7 @@
             toolStripButton1.Image = (Image)resources.GetObject("toolStripButton1.Image");
             toolStripButton1.ImageTransparentColor = Color.Magenta;
             toolStripButton1.Name = "toolStripButton1";
-            toolStripButton1.Size = new Size(29, 24);
+            toolStripButton1.Size = new Size(24, 24);
             toolStripButton1.Text = "toolStripButton1";
             // 
             // toolStripButton2
@@ -162,7 +163,7 @@
             toolStripButton2.Image = (Image)resources.GetObject("toolStripButton2.Image");
             toolStripButton2.ImageTransparentColor = Color.Magenta;
             toolStripButton2.Name = "toolStripButton2";
-            toolStripButton2.Size = new Size(29, 24);
+            toolStripButton2.Size = new Size(24, 24);
             toolStripButton2.Text = "toolStripButton2";
             // 
             // toolStripButton3
@@ -171,7 +172,7 @@
             toolStripButton3.Image = (Image)resources.GetObject("toolStripButton3.Image");
             toolStripButton3.ImageTransparentColor = Color.Magenta;
             toolStripButton3.Name = "toolStripButton3";
-            toolStripButton3.Size = new Size(29, 24);
+            toolStripButton3.Size = new Size(24, 24);
             toolStripButton3.Text = "toolStripButton3";
             // 
             // toolStripButton4
@@ -180,36 +181,37 @@
             toolStripButton4.Image = (Image)resources.GetObject("toolStripButton4.Image");
             toolStripButton4.ImageTransparentColor = Color.Magenta;
             toolStripButton4.Name = "toolStripButton4";
-            toolStripButton4.Size = new Size(29, 24);
+            toolStripButton4.Size = new Size(24, 24);
             toolStripButton4.Text = "toolStripButton4";
             // 
             // statusStrip1
             // 
             statusStrip1.ImageScalingSize = new Size(20, 20);
             statusStrip1.Items.AddRange(new ToolStripItem[] { lblTotalQuantity, lblTotalValue, lblTime });
-            statusStrip1.Location = new Point(0, 432);
+            statusStrip1.Location = new Point(0, 521);
             statusStrip1.Name = "statusStrip1";
-            statusStrip1.Size = new Size(1748, 26);
+            statusStrip1.Padding = new Padding(1, 0, 12, 0);
+            statusStrip1.Size = new Size(1530, 22);
             statusStrip1.TabIndex = 2;
             statusStrip1.Text = "statusStrip1";
             // 
             // lblTotalQuantity
             // 
             lblTotalQuantity.Name = "lblTotalQuantity";
-            lblTotalQuantity.Size = new Size(78, 20);
+            lblTotalQuantity.Size = new Size(63, 17);
             lblTotalQuantity.Text = "Tổng SP: 0";
             lblTotalQuantity.Click += toolStripStatusLabel1_Click;
             // 
             // lblTotalValue
             // 
             lblTotalValue.Name = "lblTotalValue";
-            lblTotalValue.Size = new Size(110, 20);
+            lblTotalValue.Size = new Size(87, 17);
             lblTotalValue.Text = "Tổng giá trị: 0đ";
             // 
             // lblTime
             // 
             lblTime.Name = "lblTime";
-            lblTime.Size = new Size(74, 20);
+            lblTime.Size = new Size(60, 17);
             lblTime.Text = "Thời gian:";
             // 
             // groupBox1
@@ -224,108 +226,117 @@
             groupBox1.Controls.Add(txtProductId);
             groupBox1.Controls.Add(numQuantity);
             groupBox1.Controls.Add(cboCategory);
-            groupBox1.Location = new Point(12, 58);
+            groupBox1.Location = new Point(10, 44);
+            groupBox1.Margin = new Padding(3, 2, 3, 2);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(294, 298);
+            groupBox1.Padding = new Padding(3, 2, 3, 2);
+            groupBox1.Size = new Size(257, 224);
             groupBox1.TabIndex = 3;
             groupBox1.TabStop = false;
             groupBox1.Text = "groupBox1";
             // 
             // txtProductName
             // 
-            txtProductName.Location = new Point(126, 105);
+            txtProductName.Location = new Point(110, 79);
+            txtProductName.Margin = new Padding(3, 2, 3, 2);
             txtProductName.Name = "txtProductName";
-            txtProductName.Size = new Size(151, 27);
+            txtProductName.Size = new Size(133, 23);
             txtProductName.TabIndex = 11;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(13, 254);
+            label1.Location = new Point(11, 190);
             label1.Name = "label1";
-            label1.Size = new Size(69, 20);
+            label1.Size = new Size(54, 15);
             label1.TabIndex = 10;
             label1.Text = "Số lượng";
             // 
             // txtPrice
             // 
-            txtPrice.Location = new Point(126, 204);
+            txtPrice.Location = new Point(110, 153);
+            txtPrice.Margin = new Padding(3, 2, 3, 2);
             txtPrice.Name = "txtPrice";
-            txtPrice.Size = new Size(151, 27);
+            txtPrice.Size = new Size(133, 23);
             txtPrice.TabIndex = 9;
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(13, 207);
+            label4.Location = new Point(11, 155);
             label4.Name = "label4";
-            label4.Size = new Size(62, 20);
+            label4.Size = new Size(48, 15);
             label4.TabIndex = 8;
             label4.Text = "Đơn giá";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(13, 166);
+            label3.Location = new Point(11, 124);
             label3.Name = "label3";
-            label3.Size = new Size(37, 20);
+            label3.Size = new Size(29, 15);
             label3.TabIndex = 7;
             label3.Text = "Loại";
             // 
             // text2
             // 
             text2.AutoSize = true;
-            text2.Location = new Point(13, 104);
+            text2.Location = new Point(11, 78);
             text2.Name = "text2";
-            text2.Size = new Size(100, 20);
+            text2.Size = new Size(81, 15);
             text2.TabIndex = 6;
             text2.Text = "Tên sản phẩm";
             // 
             // text
             // 
             text.AutoSize = true;
-            text.Location = new Point(13, 45);
+            text.Location = new Point(11, 34);
             text.Name = "text";
-            text.Size = new Size(98, 20);
+            text.Size = new Size(79, 15);
             text.TabIndex = 5;
             text.Text = "Mã sản phẩm";
             // 
             // txtProductId
             // 
-            txtProductId.Location = new Point(127, 38);
+            txtProductId.Location = new Point(111, 28);
+            txtProductId.Margin = new Padding(3, 2, 3, 2);
             txtProductId.Name = "txtProductId";
-            txtProductId.Size = new Size(151, 27);
+            txtProductId.Size = new Size(133, 23);
             txtProductId.TabIndex = 4;
             // 
             // numQuantity
             // 
-            numQuantity.Location = new Point(127, 252);
+            numQuantity.Location = new Point(111, 189);
+            numQuantity.Margin = new Padding(3, 2, 3, 2);
             numQuantity.Name = "numQuantity";
-            numQuantity.Size = new Size(150, 27);
+            numQuantity.Size = new Size(131, 23);
             numQuantity.TabIndex = 2;
             // 
             // cboCategory
             // 
             cboCategory.FormattingEnabled = true;
-            cboCategory.Location = new Point(127, 158);
+            cboCategory.Location = new Point(111, 118);
+            cboCategory.Margin = new Padding(3, 2, 3, 2);
             cboCategory.Name = "cboCategory";
-            cboCategory.Size = new Size(151, 28);
+            cboCategory.Size = new Size(133, 23);
             cboCategory.TabIndex = 1;
             // 
             // picProductImage
             // 
-            picProductImage.Location = new Point(330, 39);
+            picProductImage.Location = new Point(289, 29);
+            picProductImage.Margin = new Padding(3, 2, 3, 2);
             picProductImage.Name = "picProductImage";
-            picProductImage.Size = new Size(940, 317);
+            picProductImage.Size = new Size(822, 238);
             picProductImage.SizeMode = PictureBoxSizeMode.Zoom;
             picProductImage.TabIndex = 11;
             picProductImage.TabStop = false;
             // 
             // btnChooseImage
             // 
-            btnChooseImage.Location = new Point(667, 369);
+            btnChooseImage.Location = new Point(584, 277);
+            btnChooseImage.Margin = new Padding(3, 2, 3, 2);
             btnChooseImage.Name = "btnChooseImage";
-            btnChooseImage.Size = new Size(256, 29);
+            btnChooseImage.Size = new Size(224, 22);
             btnChooseImage.TabIndex = 12;
             btnChooseImage.Text = "Chọn ảnh";
             btnChooseImage.UseVisualStyleBackColor = true;
@@ -334,10 +345,11 @@
             // dgvProducts
             // 
             dgvProducts.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvProducts.Location = new Point(1381, 58);
+            dgvProducts.Location = new Point(10, 304);
+            dgvProducts.Margin = new Padding(3, 2, 3, 2);
             dgvProducts.Name = "dgvProducts";
             dgvProducts.RowHeadersWidth = 51;
-            dgvProducts.Size = new Size(300, 188);
+            dgvProducts.Size = new Size(886, 141);
             dgvProducts.TabIndex = 13;
             // 
             // ofdImage
@@ -358,9 +370,10 @@
             // 
             // btnAdd
             // 
-            btnAdd.Location = new Point(1395, 281);
+            btnAdd.Location = new Point(10, 449);
+            btnAdd.Margin = new Padding(3, 2, 3, 2);
             btnAdd.Name = "btnAdd";
-            btnAdd.Size = new Size(94, 29);
+            btnAdd.Size = new Size(82, 22);
             btnAdd.TabIndex = 14;
             btnAdd.Text = "Thêm mới";
             btnAdd.UseVisualStyleBackColor = true;
@@ -368,9 +381,10 @@
             // 
             // btnUpdate
             // 
-            btnUpdate.Location = new Point(1525, 284);
+            btnUpdate.Location = new Point(123, 451);
+            btnUpdate.Margin = new Padding(3, 2, 3, 2);
             btnUpdate.Name = "btnUpdate";
-            btnUpdate.Size = new Size(94, 29);
+            btnUpdate.Size = new Size(82, 22);
             btnUpdate.TabIndex = 15;
             btnUpdate.Text = "Cập nhật";
             btnUpdate.UseVisualStyleBackColor = true;
@@ -378,9 +392,10 @@
             // 
             // btnClear
             // 
-            btnClear.Location = new Point(1525, 331);
+            btnClear.Location = new Point(123, 486);
+            btnClear.Margin = new Padding(3, 2, 3, 2);
             btnClear.Name = "btnClear";
-            btnClear.Size = new Size(94, 29);
+            btnClear.Size = new Size(82, 22);
             btnClear.TabIndex = 16;
             btnClear.Text = "Làm mới";
             btnClear.UseVisualStyleBackColor = true;
@@ -388,9 +403,10 @@
             // 
             // btnDelete
             // 
-            btnDelete.Location = new Point(1395, 331);
+            btnDelete.Location = new Point(10, 486);
+            btnDelete.Margin = new Padding(3, 2, 3, 2);
             btnDelete.Name = "btnDelete";
-            btnDelete.Size = new Size(94, 29);
+            btnDelete.Size = new Size(82, 22);
             btnDelete.TabIndex = 17;
             btnDelete.Text = "Xóa";
             btnDelete.UseVisualStyleBackColor = true;
@@ -398,9 +414,9 @@
             // 
             // frmInventoryManager
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1748, 458);
+            ClientSize = new Size(1530, 543);
             Controls.Add(btnDelete);
             Controls.Add(btnClear);
             Controls.Add(btnUpdate);
@@ -413,6 +429,7 @@
             Controls.Add(toolStrip1);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
+            Margin = new Padding(3, 2, 3, 2);
             Name = "frmInventoryManager";
             Text = "Form1";
             Load += Form1_Load;

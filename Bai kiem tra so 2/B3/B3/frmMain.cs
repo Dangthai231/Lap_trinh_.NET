@@ -23,20 +23,21 @@ namespace B3
             StartBackgroundSync();
         }
 
-        // Logic điều hướng MDI chung
+        // Scenario A: Logic điều hướng MDI (Kiểm tra trùng lặp)
         private void OpenChildForm(Type formType)
         {
-            // Kiểm tra xem form đã được mở chưa
+            // Kiểm tra xem Form con đã mở hay chưa
             Form? child = this.MdiChildren.FirstOrDefault(f => f.GetType() == formType);
 
             if (child != null)
             {
-                // Nếu đã mở, mang lên trước
+                // Nếu đã mở thì mang lên trước
                 child.Activate();
+                child.WindowState = FormWindowState.Normal;
             }
             else
             {
-                // Nếu chưa mở, tạo mới
+                // Nếu chưa mở thì tạo mới instance
                 Form? newForm = Activator.CreateInstance(formType) as Form;
                 if (newForm != null)
                 {
@@ -58,10 +59,20 @@ namespace B3
 
         private void mnuThoat_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Bạn có chắc muốn thoát?", "Xác nhận", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            if (MessageBox.Show("Bạn có chắc chắn muốn thoát ứng dụng?", "Xác nhận thoát", 
+                MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 Application.Exit();
             }
+        }
+
+        private void mnuDangXuat_Click(object sender, EventArgs e)
+        {
+            foreach (Form child in this.MdiChildren)
+            {
+                child.Close();
+            }
+            MessageBox.Show("Đã đăng xuất hệ thống.", "Thông báo");
         }
 
         private void mnuCascade_Click(object sender, EventArgs e)
@@ -88,20 +99,20 @@ namespace B3
                 while (true)
                 {
                     count++;
-                    // Giả lập lấy dữ liệu tỷ giá hoặc đơn hàng mới mỗi 2 giây
+                    // Giả lập quét số lượng đơn hàng mới mỗi 2 giây
                     await Task.Delay(2000);
 
-                    string statusText = $"Đang đồng bộ... Lần thứ {count} (Thread ID: {Environment.CurrentManagedThreadId})";
-
-                    // Cập nhật UI an toàn
-                    UpdateStatusSafe(statusText);
+                    string status = $"[Sync] Đồng bộ dữ liệu lần {count} - OK (Thread ID: {Environment.CurrentManagedThreadId})";
+                    
+                    // Áp dụng quy tắc Thread Safety: Safe Cross-Thread
+                    UpdateStatusSafe(status);
                 }
             });
         }
 
         private void UpdateStatusSafe(string text)
         {
-            // Kiểm tra InvokeRequired
+            // Kiểm tra InvokeRequired để chuyển ngữ cảnh xử lý về UI Thread
             if (statusStrip1.InvokeRequired)
             {
                 statusStrip1.Invoke(new Action(() => UpdateStatusSafe(text)));
@@ -112,7 +123,7 @@ namespace B3
             }
         }
 
-        // Cung cấp ProgressBar cho các form con sử dụng
+        // Phương thức dùng chung cho các form con cập nhật tiến trình
         public void UpdateProgress(int value, bool visible)
         {
             if (statusStrip1.InvokeRequired)
@@ -123,6 +134,7 @@ namespace B3
             {
                 prgTask.Visible = visible;
                 prgTask.Value = value;
+                if (!visible) lblStatus.Text = "Ready";
             }
         }
     }

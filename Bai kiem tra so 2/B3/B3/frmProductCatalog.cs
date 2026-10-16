@@ -13,6 +13,7 @@ namespace B3
 {
     public partial class frmProductCatalog : Form
     {
+        // Kế thừa từ Bài 1 & 2: Sử dụng BindingList và BindingSource để quản lý dữ liệu
         private BindingList<Product> products = new BindingList<Product>();
         private BindingSource bindingSource = new BindingSource();
         private int productIdCounter = 1;
@@ -24,17 +25,17 @@ namespace B3
 
         private void frmProductCatalog_Load(object sender, EventArgs e)
         {
-            // 1. Khởi tạo dữ liệu ComboBox (Kế thừa từ B1/B2)
+            // 1. Khởi tạo dữ liệu ComboBox (Kế thừa từ Bài 1 & 2)
             cboCategory.Items.AddRange(new string[] { "Điện thoại", "Laptop", "Máy tính bảng", "Phụ kiện" });
 
-            // 2. Cấu hình Binding
+            // 2. Cấu hình Data Binding
             bindingSource.DataSource = products;
             
-            // 3. Cấu hình DataGridView
+            // 3. Cấu hình DataGridView (Kế thừa từ Bài 1: AutoGenerateColumns = false)
             SetupDataGridView();
             dgvProducts.DataSource = bindingSource;
 
-            // 4. Đăng ký sự kiện
+            // 4. Xử lý sự kiện đổ dữ liệu ngược lên form (Kế thừa từ Bài 1 & 2)
             dgvProducts.SelectionChanged += DgvProducts_SelectionChanged;
 
             // Dữ liệu mẫu ban đầu
@@ -49,10 +50,10 @@ namespace B3
 
             dgvProducts.Columns.Add(new DataGridViewTextBoxColumn { DataPropertyName = "ProductId", HeaderText = "Mã SP", Width = 80 });
             dgvProducts.Columns.Add(new DataGridViewTextBoxColumn { DataPropertyName = "ProductName", HeaderText = "Tên sản phẩm", AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill });
-            dgvProducts.Columns.Add(new DataGridViewTextBoxColumn { DataPropertyName = "Category", HeaderText = "Loại", Width = 100 });
+            dgvProducts.Columns.Add(new DataGridViewTextBoxColumn { DataPropertyName = "Category", HeaderText = "Loại sản phẩm", Width = 120 });
             
-            DataGridViewTextBoxColumn priceCol = new DataGridViewTextBoxColumn { DataPropertyName = "Price", HeaderText = "Đơn giá", Width = 100 };
-            priceCol.DefaultCellStyle.Format = "N0";
+            DataGridViewTextBoxColumn priceCol = new DataGridViewTextBoxColumn { DataPropertyName = "Price", HeaderText = "Đơn giá", Width = 120 };
+            priceCol.DefaultCellStyle.Format = "N0"; // Định dạng số nguyên
             dgvProducts.Columns.Add(priceCol);
 
             dgvProducts.Columns.Add(new DataGridViewTextBoxColumn { DataPropertyName = "Quantity", HeaderText = "Số lượng", Width = 80 });
@@ -69,6 +70,7 @@ namespace B3
                 txtPrice.Text = selected.Price.ToString();
                 numQuantity.Value = selected.Quantity;
 
+                // Kế thừa từ Bài 2: Hiển thị ảnh sản phẩm
                 if (!string.IsNullOrEmpty(selected.ImagePath) && File.Exists(selected.ImagePath))
                 {
                     picProductImage.Image = Image.FromFile(selected.ImagePath);
@@ -82,6 +84,7 @@ namespace B3
             }
         }
 
+        // Kế thừa từ Bài 1: Kiểm soát dữ liệu đầu vào (Validation & ErrorProvider)
         private bool ValidateInput()
         {
             errorProvider1.Clear();
@@ -108,6 +111,7 @@ namespace B3
             return isValid;
         }
 
+        // Kế thừa từ Bài 2: Hộp thoại chọn ảnh
         private void btnChooseImage_Click(object sender, EventArgs e)
         {
             ofdImage.Filter = "Image Files (*.bmp;*.jpg;*.png)|*.bmp;*.jpg;*.png";
@@ -151,7 +155,7 @@ namespace B3
                 selected.ImagePath = picProductImage.Tag?.ToString() ?? selected.ImagePath;
 
                 bindingSource.ResetBindings(false);
-                MessageBox.Show("Cập nhật thành công!", "Thông báo");
+                MessageBox.Show("Cập nhật sản phẩm thành công!", "Thông báo");
             }
         }
 
@@ -162,7 +166,8 @@ namespace B3
             Product? selected = dgvProducts.CurrentRow.DataBoundItem as Product;
             if (selected != null)
             {
-                if (MessageBox.Show($"Xóa sản phẩm {selected.ProductName}?", "Xác nhận", MessageBoxButtons.YesNo) == DialogResult.Yes)
+                if (MessageBox.Show($"Xác nhận xóa sản phẩm: {selected.ProductName}?", "Xác nhận", 
+                    MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
                 {
                     products.Remove(selected);
                     btnClear_Click(sender, e);
