@@ -67,6 +67,8 @@ namespace bai5
         }
 
         // 2. Xử lý Validation với ErrorProvider (Số lượng, Trọng lượng <= 0)
+        //    Dùng cell.ErrorText để bật biểu tượng cảnh báo đỏ ngay bên trong ô đang nhập
+        //    (đây là cơ chế tương đương ErrorProvider dành riêng cho DataGridView).
         private void dgvHangHoa_CellValidating(object sender, DataGridViewCellValidatingEventArgs e)
         {
             // Bỏ qua nếu đang ở dòng mới chưa nhập gì
@@ -90,25 +92,17 @@ namespace bai5
                 {
                     e.Cancel = true; // Ngăn không cho rời khỏi ô
                     cell.ErrorText = "Vui lòng nhập số!";
-                    errorProvider1.SetError(dgvHangHoa, "Vui lòng nhập số hợp lệ!");
                 }
                 else if (val <= 0)
                 {
                     e.Cancel = true;
                     cell.ErrorText = "Giá trị phải lớn hơn 0!";
-                    errorProvider1.SetError(dgvHangHoa, "Vui lòng nhập số lớn hơn 0!");
                 }
                 else
                 {
                     // Hợp lệ -> xóa lỗi
                     cell.ErrorText = string.Empty;
-                    errorProvider1.Clear();
                 }
-            }
-            else
-            {
-                // Khi rời khỏi cột Số lượng/Trọng lượng, xóa cảnh báo trên lưới
-                errorProvider1.Clear();
             }
         }
 
