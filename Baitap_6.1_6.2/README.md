@@ -30,7 +30,7 @@
 ![Màn hình chính](./screenshot/6.4.jpg)
 
 ### 2. Màn hình Quản lý Danh mục (CRUD - Thêm/Sửa/Xóa)
-![Màn hình CRUD](./screenshot/6.5.jpg)
+![Màn hình CRUD](./screenshot/6.6.jpg)
 
 ### 3. Màn hình Báo cáo - Thống kê
 ![Màn hình Thống kê](./screenshot/6.7.jpg)
