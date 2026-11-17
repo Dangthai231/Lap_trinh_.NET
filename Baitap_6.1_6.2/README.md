@@ -2,8 +2,9 @@
 
 ## MỤC 1: THÔNG TIN SINH VIÊN
 
-- **Họ và tên sinh viên:** Vương Thanh Thúy
-- **Mã sinh viên:** 24810310270
+- **Họ và tên sinh viên:** Đặng Hồng Thái
+- **Mã sinh viên:** 24810310241
+- 
 - **Lớp / Khóa:** D19CNPM3
 
 ## MỤC 2: HÌNH ẢNH KẾT QUẢ CÁC MÀN HÌNH CHỨC NĂNG
