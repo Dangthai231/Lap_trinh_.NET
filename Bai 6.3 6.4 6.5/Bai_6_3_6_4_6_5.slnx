@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="GarageManager/GarageManager.csproj" />
+  <Project Path="ProjectTaskManager/ProjectTaskManager.csproj" />
+</Solution>
