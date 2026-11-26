@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="BankAtmManagement/BankAtmManagement.csproj" />
+  <Project Path="PowerGridMonitor/PowerGridMonitor.csproj" />
+</Solution>
